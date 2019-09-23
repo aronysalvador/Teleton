@@ -1,0 +1,133 @@
+
+.backColorHead-BCH {
+
+    background-color: #0e2841; }
+
+.backColor-BCH {
+     background-color: #112460; }
+
+.imagesWidht{
+    width: 60%; }
+
+.vl {
+    border-left: 2px solid #a1a9c0;
+    height: 50px;
+    margin-left: -100px;
+    margin-top: 10px;
+    }
+     
+.cuadrado-1 {
+        margin-right: 20px;
+        width: 30px; 
+        height: 30px; 
+        border: 2px solid #FFF;
+        background: #438acc;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+
+}
+
+.cuadrado-2 {
+    margin-right: 20px;
+    width: 30px; 
+    height: 30px; 
+    border: 2px solid #FFF;
+    background: #11255f;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.cuadrado-3 {
+    margin-right: 100px;
+    width: 30px; 
+    height: 30px; 
+    border: 2px solid #FFF;
+    background: #010101;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.color-chart2 {
+    width: 15px; 
+     height: 30px; 
+     border: 2px solid rgb(255, 255, 255); 
+     background: #ffffff;
+     -moz-border-radius: 100px 0 0 100px;
+     -webkit-border-radius: 100px 0 0 100px;
+     border-radius:100px 0 0 100px;
+}
+
+.color-chart {
+    margin-right: 20px;
+    width: 15px; 
+     height: 30px; 
+     border: 1px solid rgb(255, 255, 255); 
+     background: #000000;
+     -moz-border-radius: 0 100px 100px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 0 100px 100px 0;
+}
+
+.letter{
+    font: small-caps 150%/100% serif;
+    color:rgb(255, 255, 255)
+}
+
+.margin-end{
+    margin-right: 150px;
+}
+
+.margin-start{
+    margin-left: 150px;
+}
+
+.margin-title{
+    margin-top: 20px;
+    margin-left: 25px; 
+}
+ 
+.letter-title{
+    color:#a1a9c0;
+}
+
+.letter-row{
+    color:#11255f;
+}
+
+.letter-row2{
+    color:#000000;
+}
+
+.letter-row3{
+    color:#000000;
+}
+
+#labelAporte::placeholder {   
+    font-style:italic;
+    color: #c5c4c2;
+}
+
+#montoAporte::placeholder {   
+    font-style:italic;
+    color: #c5c4c2;
+   
+}
+
+#labelRut::placeholder {   
+    font-style:italic;
+    color: #c5c4c2;
+}
+
+#labelEmail::placeholder {   
+    font-style:italic;
+    color: #c5c4c2;
+}
+
+.marginBlock{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
