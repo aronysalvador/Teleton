@@ -1,3 +1,7 @@
+.container-fuild{
+    background: red;
+}
+
 
 .backColorHead-BCH {
 
@@ -7,13 +11,23 @@
      background-color: #112460; }
 
 .imagesWidht{
-    width: 60%; }
+    width: 100%;
+    height: 90%;
+    vertical-align: middle; }
+
+.imagesWidht2{
+        width: 60%;
+        height: 60%;
+        margin: auto;
+        margin-top: 30px;
+        display: block; }
 
 .vl {
     border-left: 2px solid #a1a9c0;
     height: 50px;
-    margin-left: -100px;
-    margin-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
     }
      
 .cuadrado-1 {
@@ -81,16 +95,19 @@
 }
 
 .margin-start{
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .margin-title{
-    margin-top: 20px;
-    margin-left: 25px; 
+    width: 100%;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
 }
  
 .letter-title{
     color:#a1a9c0;
+    text-align: center;
 }
 
 .letter-row{
@@ -136,4 +153,76 @@
     
 }
 
+.fontColorDeails{
+    background-color: #EEEEEE; 
 
+    
+}
+
+.fontColor{
+    background-color: #ffffff ; 
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, center, u, b {
+    
+    font-weight: normal !important;
+    font-style: normal !important;
+    
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+@media (max-width: 978px) {
+    .container-fuild {
+    background: white;
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+
+    .margin-start {
+        margin-left: 20px; 
+    }
+
+    .letter-row{
+        font-size: 18px;
+
+    }
+
+    .imagesPr {
+        width: 40% !important;
+        float: left;
+    }
+    
+    .margin-title{
+    
+        width: 20% !important;
+        float: left;
+        
+    }
+
+    .letter-rowTitle{
+        font-size: 25px;
+
+    }
+
+
+    
+    
+    
+}
+
+h4.title{
+    font-weight: 500;
+}
