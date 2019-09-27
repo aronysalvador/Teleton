@@ -175,6 +175,21 @@
     background-color: #ffffff ; 
 }
 
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 15px 12.5px 0;
+    border-color: transparent #eeeeee transparent transparent;
+    position: absolute;
+    top: 21%;
+    left: -2%;
+    right: auto;
+}
+
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, center, u, b {
     
     font-weight: normal !important;
@@ -213,7 +228,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     }
 
     .imagesPr {
-        width: 40% !important;
+        width: 55% !important;
         height: auto;
         float: left;
     }
@@ -248,16 +263,33 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     #btnPrincipal{
         position: absolute;
         z-index: 5;
-        top: 551px;
-        width: 90%;
-        height: auto;
-        left: 27px;
+        top: 555px;
+        width: 100%;
+        height: 31%;
+        left: 4%;
+        margin-bottom: 5%;
     }
 
     .fontColorDeails3{
         display: none;   
     }
 
+    .triangulo{
+        display: none;
+    }
+
+    .triangulo2{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 12.5px 15px 12.5px;
+        border-color: transparent transparent #eeeeee transparent;
+        position: absolute;
+        top: -14px;
+        left: 45%;
+
+    }
+    
 }
 
 h4.title{
