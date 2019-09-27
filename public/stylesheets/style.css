@@ -15,8 +15,14 @@
     height: 90%;
     vertical-align: middle; }
 
+.imagesWidht3{
+        width: 340px;
+        height: auto;
+        vertical-align: middle; }
+    
+
 .imagesWidht2{
-        width: 60%;
+        width: auto;
         height: 60%;
         margin: auto;
         margin-top: 30px;
@@ -159,6 +165,12 @@
     
 }
 
+.fontColorDeails3{
+    background-color: #EEEEEE; 
+
+    
+}
+
 .fontColor{
     background-color: #ffffff ; 
 }
@@ -202,6 +214,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
 
     .imagesPr {
         width: 40% !important;
+        height: auto;
         float: left;
     }
     
@@ -217,10 +230,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
 
     }
 
+    .imagesWidht3{
+        width: 160px;
+        height: auto;
+    }
 
+    .fontColorDeails2{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
     
-    
-    
+    .letter-title{
+        width: 50%;
+        font-size: 16px;
+    }
+
+    #btnPrincipal{
+        position: absolute;
+        z-index: 5;
+        top: 551px;
+        width: 90%;
+        height: auto;
+        left: 27px;
+    }
+
+    .fontColorDeails3{
+        display: none;   
+    }
+
 }
 
 h4.title{

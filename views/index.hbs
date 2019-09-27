@@ -35,7 +35,7 @@
             <div class="vl col-xs-1">           
             </div>
 
-            <div class="margin-title col-lg-3 col-md-3 col-sm-12 col-xs-3">
+            <div class="margin-title col-lg-4">
                <span><h3 class="letter-title">Banca Personas</h3></span>
             </div>
           </div>      
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-4">
-               <a  href="#"><img class="imagesWidht " src="images/logos/logoTeleton.png" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme"></a>
+               <a  href="#"><img class="imagesWidht3" src="images/logos/logoTeleton.png" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme"></a>
             </div>
           </div> 
 
@@ -63,7 +63,7 @@
                  <form action= "/sucessful" method="get" id="formPrincipal">
                   <div class="form-group">
                     <p><h6 class="letter-row2"> Aporte a nombre de:</h6></p>
-                    <input type="text" class="form-control" id="labelAporte"  placeholder="Ingresa nombre" required>                
+                    <input type="text" class="form-control" id="labelAporte"  placeholder="Ingresa nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>                
                   </div>
                   <div class="form-group">
                     <p><h6 class="letter-row2"> Monto del Aporte (pesos)</h5></p>
@@ -74,20 +74,20 @@
               </div>
             </div>
 
-            <div class="col-lg-5 col-md-5 fontColorDeails">
+            <div class="col-lg-5 col-md-5 fontColorDeails fontColorDeails2">
               <p><h4 > <i class= "title">Yo me comprometo</i></h4></p>        
-              <p><h5 > <strong>Fundación Teletón </strong>quiere estar conectado contigo e informarte qué hacemos con tu aporte. Esta información <strong>no es obligatoria de llenar</strong></h5></p>
+              <p><h6 > <strong>Fundación Teletón </strong>quiere estar conectado contigo e informarte qué hacemos con tu aporte. Esta información <strong>no es obligatoria de llenar</strong></h6></p>
               <div class="row">
                 <div class="col-lg-6 com-sm-6">
                 <div class="form-group">
-                    <p><h5 class="letter-row2"> RUT:</h5></p>
+                    <p><h6 class="letter-row2"> RUT:</h6></p>
                     <input type="text" class="form-control" id="labelRut" placeholder="Ingresa RUT">
                 </div>
               </div>
               <div class="col-lg-6 com-sm-6">
                 <div class="form-group">
-                    <p><h5 class="letter-row2"> E-mail:</h5></p>
-                    <input type="email" class="form-control" id="labelEmail" placeholder="Ingresa tu E-mail">
+                    <p><h6 class="letter-row2"> E-mail:</h6></p>
+                    <input type="email" class="form-control" id="labelEmail" placeholder="Ingresa tu E-mail" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
                 </div>
               </div>
               </div>
@@ -95,34 +95,14 @@
 
 
 
-            <div class="col-lg-2 col-md-2 fontColorDeails">
+            <div class="col-lg-2 col-md-2 fontColorDeails3">
                <a  href="#"><img class="imagesWidht2" src="images/logos/logoTeleton2.png" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme"></a>
             </div>
           </div> 
 
       </div> <!-- container.// -->
     </section>
-    <script>
-
-      $(document).ready(function(){
-        $("#montoAporte").on({
-              "focus": function (event) {
-                  $(event.target).select();
-              },
-              "keyup": function (event) {
-                  $(event.target).val(function (index, value ) {
-                      return value.replace(/\D/g, "")
-                                  .replace(/([0-9])([0-9]{2})$/, '$1.$2')
-                                  .replace(/\B(?=(\d{3})+(?!\d)\.?)/g, ",");
-                  });
-              }
-          });
-      });
-      
-
     
-    </script>
-
-    
+  
     <!-- ========================= PRINCIPAL END // ========================= -->
 
