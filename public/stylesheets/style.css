@@ -1,7 +1,16 @@
 .container-fuild{
     background: red;
 }
+.numberOpt{
+    text-align: center;
+    margin-top: auto;
+}
 
+.centerHead{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 .backColorHead-BCH {
 
@@ -190,6 +199,16 @@
 
 
 
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, center, u, b {
     
     font-weight: normal !important;
@@ -199,6 +218,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
    
 }
 
+#btnPrincipal{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 100%;
+    width:50%;
+}
+
+.label{
+    color: white;
+    border-bottom: solid 2px #FFF;
+}
+
+.label2{
+    color: white;
+    
+}
 
 
 @media (max-width: 978px) {
@@ -258,6 +293,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     .letter-title{
         width: 50%;
         font-size: 16px;
+        margin-left: auto;
     }
 
     #btnPrincipal{
@@ -268,7 +304,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
         height: 31%;
         left: 4%;
         margin-bottom: 5%;
-    }
+    } 
+
+    
 
     .fontColorDeails3{
         display: none;   
@@ -288,6 +326,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
         top: -14px;
         left: 45%;
 
+    }
+
+    .headMobile{
+        display: none;
     }
     
 }

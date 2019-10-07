@@ -27,7 +27,8 @@
 
     
       <div class=" backColor-BCH ">
-          <div class="row col-lg-8 col-md-8 ">
+        <div class="row">
+            <div class="row col-lg-8 col-md-8 ">
             <div class="col-lg-4  margin-start imagesPr">
               <a  href="#"><img class="imagesWidht " src="images/logos/logoReal.png" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme"></a>
             </div>
@@ -35,10 +36,23 @@
             <div class="vl col-xs-1">           
             </div>
 
-            <div class="margin-title col-lg-4">
+            <div class="margin-title col-lg-4 centerHead">
                <span><h3 class="letter-title">Banca Personas</h3></span>
             </div>
-          </div>      
+          </div> 
+
+          <div class="col-lg-2 centerHead headMobile">
+            <label class="label"><h6>Aporte desde Chile</h6></label>
+          </div>
+
+          <div class="col-lg-2 centerHead headMobile">
+            <label class="label2"><h6>Aporte desde el Extranjero</h6></label>
+          </div>
+        </div>
+          
+
+          
+
       </div> <!-- container.// -->
    
     </header> <!-- section-header.// -->
@@ -58,8 +72,8 @@
           </div> 
 
           <div class="row col-lg-12 col-md-12">
-            <div class="col-lg-4 col-md-4 ">
-              <div class="margin-start">  
+            <div class="col-lg-4 col-md-4" style="border: 2px solid #EEEEEE; margin-left: auto;">
+              <div >  
                  <form action= "/sucessful" method="get" id="formPrincipal">
                   <div class="form-group">
                     <p><h6 class="letter-row2"> Aporte a nombre de:</h6></p>
@@ -69,7 +83,7 @@
                     <p><h6 class="letter-row2"> Monto del Aporte (pesos)</h5></p>
                     <input type="number" class="form-control" id="montoAporte" placeholder="Ingresa monto" required>
                   </div>
-                  <button type="submit" id="btnPrincipal"class="btn btn-primary">Aceptar</button>
+                  <button type="submit" id="btnPrincipal" class="btn btn-primary">Aportar</button>
                 </form>
               </div>
             </div>
@@ -84,14 +98,18 @@
               <div class="row">
                 <div class="col-lg-6 com-sm-6">
                 <div class="form-group">
-                    <p><h6 class="letter-row2"> RUT:</h6></p>
+                    <p><h6 class="letter-row2"> RUT:(Opcional)</h6></p>
                     <input type="text" class="form-control" id="labelRut" placeholder="Ingresa RUT">
                 </div>
               </div>
               <div class="col-lg-6 com-sm-6">
                 <div class="form-group">
-                    <p><h6 class="letter-row2"> E-mail:</h6></p>
-                    <input type="email" class="form-control" id="labelEmail" placeholder="Ingresa tu E-mail" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
+                    <p><h6 class="letter-row2"> Teléfono:(Opcional)</h6></p>
+                    
+                    <div class="row">
+                      <h6 class="col-lg-3 numberOpt"><i>+56 9</i></h6>
+                      <input type="number" class="form-control col-lg-9" id="labelEmail" placeholder="Ingresa Teléfono" >          
+                    </div>       
                 </div>
               </div>
               </div>
