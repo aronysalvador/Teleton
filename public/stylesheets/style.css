@@ -6,6 +6,10 @@
     margin-top: auto;
 }
 
+.footerMobile{
+    display: none;
+}
+
 .centerHead{
     display: flex;
    justify-content: center;
@@ -235,6 +239,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     
 }
 
+.borderColor{
+    border: 2px solid #EEEEEE; margin-left: auto;
+}
+
 
 @media (max-width: 978px) {
     .container-fuild {
@@ -243,14 +251,42 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
       margin:0;
     }
 
+    .vl{
+       display: none; 
+    }
+
     body {
       padding:0;
+    }
+
+    .positionMobile{
+        position: absolute !important;
+        margin-left: 15%;
+    }
+
+    .centerHead{
+       display: none;
+    }
+
+    .positionMobile2{
+        margin-top: 24% !important;
+    }
+
+    .borderColor{
+        border: 0px;
+        margin-left: 7%;
     }
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
       margin-left: 0;
       margin-right: 0;
       margin-bottom:0;
+    }
+
+    .footerMobile{
+        display: flex;
+        margin-top: 19%;
+        margin-left: 3%;
     }
 
     .margin-start {
@@ -281,7 +317,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     }
 
     .imagesWidht3{
-        width: 160px;
+        width: 66%;
         height: auto;
     }
 
@@ -299,10 +335,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     #btnPrincipal{
         position: absolute;
         z-index: 5;
-        top: 555px;
+        top: 530px;
         width: 100%;
         height: 31%;
-        left: 4%;
+        right: 0%;
         margin-bottom: 5%;
     } 
 
@@ -331,7 +367,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     .headMobile{
         display: none;
     }
+
+    .numberOpt{
+        width: 25% !important;
+    }
     
+    #labelEmail{
+        width: 70% !important;
+    }
 }
 
 h4.title{
