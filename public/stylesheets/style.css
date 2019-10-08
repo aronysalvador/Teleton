@@ -264,6 +264,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
         margin-left: 15%;
     }
 
+    .imagesWidht2{
+        width: 45%;
+        height: auto;
+        margin-top: 0px;
+        display: inline;
+    }
+
     .centerHead{
        display: none;
     }
@@ -286,6 +293,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     .footerMobile{
         display: flex;
         margin-top: 19%;
+        margin-left: 3%;
+    }
+
+    .footerMobile2{
+        display: flex;
+        margin-top: -3%;
         margin-left: 3%;
     }
 
@@ -345,7 +358,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, bl
     
 
     .fontColorDeails3{
-        display: none;   
+        position: absolute !important;
+        width: 45% !important;
+        height: 0%;
+        margin-top: 56%;
+        margin-left: 70%;
     }
 
     .triangulo{
