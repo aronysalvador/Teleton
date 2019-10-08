@@ -152,6 +152,14 @@
    
 }
 
+#montoAporte{   
+    width:90%; 
+}
+
+#labelAporte {   
+    width:90%; 
+}
+
 #labelRut::placeholder {   
     font-style:italic;
     color: #c5c4c2;
@@ -188,21 +196,17 @@
     background-color: #ffffff ; 
 }
 
-
-.triangulo{
+.triangulo {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 12.5px 15px 12.5px 0;
+    border-width: 25px 30px 25px 0;
     border-color: transparent #eeeeee transparent transparent;
     position: absolute;
     top: 21%;
-    left: -2%;
+    left: -4%;
     right: auto;
 }
-
-
-
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
